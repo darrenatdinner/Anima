@@ -1,0 +1,6 @@
+first_name : string @index(exact, fulltext) .
+middle_name : string @index(exact, fulltext) .
+last_name : string @index(exact, fulltext) .
+birth_date : dateTime @index(dateTime) .
+identification : uid @index(uid) . #IdentificationRecord
+contact : uid @index(uid) . #ContactMethod

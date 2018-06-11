@@ -1,0 +1,4 @@
+record_number : string @index(term) .
+provider : uid @index(uid) . # Organization
+registered_date : dateTime @index(dateTime) .
+type : uid @index(uid) . #Identification Type

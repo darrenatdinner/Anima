@@ -1,0 +1,2 @@
+name : string @index(exact, fulltext) .
+level : int @index(int) .

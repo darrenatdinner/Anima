@@ -1,0 +1,3 @@
+accountIdentifier : string @index(exact, fullText) .
+primary_contact : uid @index(uid) . #ContactMethod
+contacts : [uid] @index(uid) @count . #ContactMethod

@@ -1,0 +1,3 @@
+name: string @index(term) .
+primary_location: uid @index(uid) . #Location
+primary_contact: uid @index(uid) . #ContactMethod

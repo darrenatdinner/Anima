@@ -1,0 +1,39 @@
+{
+    "id": {
+        "type": "int",
+        "required": true
+    },
+    "created_by": {
+        "type": "string",
+        "required": true
+    },
+    "created_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    "modified_by": {
+        "type": "string",
+        "required": true
+    },
+    "modified_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    
+    "file_name": {
+        "type": "string",
+        "required": true
+    },
+    "file_location": {
+        "type": "string",
+        "required": true
+    },
+    "media_type":{
+        "type": "string",
+        "required": true
+    },
+    "metadata": {
+        "type": "string",
+        "required": true
+    }
+}

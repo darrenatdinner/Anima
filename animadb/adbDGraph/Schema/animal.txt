@@ -1,0 +1,10 @@
+life : string @index(term) .
+domain  : string @index(term) .
+kingdom : string @index(term) .
+phylum : string @index(term) .
+class : string @index(term) .
+order : string @index(term) .
+family : string @index(term) .
+genus : string @index(term) .
+species : string @index(term) .
+media : [object]

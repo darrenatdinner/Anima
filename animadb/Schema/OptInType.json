@@ -1,0 +1,27 @@
+{
+    "id": {
+        "type": "int",
+        "required": true
+    },
+    "created_by": {
+        "type": "string",
+        "required": true
+    },
+    "created_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    "modified_by": {
+        "type": "string",
+        "required": true
+    },
+    "modified_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    
+    "name": {
+        "type": "string",
+        "required": true
+    }
+}

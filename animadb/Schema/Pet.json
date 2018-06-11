@@ -1,0 +1,53 @@
+{
+    "id":{
+        "type": "int",
+        "required": true
+    },
+    "created_by": {
+        "type": "string",
+        "required": true
+    },
+    "created_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    "modified_by": {
+        "type": "string",
+        "required": true
+    },
+    "modified_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    
+    "name":{
+        "type": "string",
+        "required": true
+    },
+    "animal_type":{
+        "type": "int",
+        "required": true,
+        "reference": "Animal"
+    },
+    "pet_record":{
+        "type": "IdentificationRecord",
+        "required": true
+    },
+    "external_records":{
+        "type": "[]IdentificationRecord",
+        "required": false
+    },
+    "behavior_records":{
+        "type": "[]BehaviorRecord",
+        "required": false
+    },
+    "medical_records":{
+        "type": "[]MedicalRecord",
+        "required": false
+    },
+    "statistic_optin":{
+        "type": "ShareRecord",
+        "required": true
+    }
+
+}

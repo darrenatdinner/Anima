@@ -1,0 +1,4 @@
+file_name : string @index(fulltext) .
+file_location : string @index(fulltext) .
+media_type : string @index(term) .
+metadata : object .

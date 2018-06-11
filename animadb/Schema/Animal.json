@@ -1,0 +1,64 @@
+{
+    "id": {
+        "type": "int",
+        "required": true
+    },
+    "created_by": {
+        "type": "string",
+        "required": true
+    },
+    "created_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    "modified_by": {
+        "type": "string",
+        "required": true
+    },
+    "modified_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    
+    "life": {
+        "type": "string",
+        "required": true
+    },
+    "domain": {
+        "type": "string",
+        "required": true
+    },
+    "kingdom": {
+        "type": "string",
+        "required": true
+    },
+    "phylum": {
+        "type": "string",
+        "required": true
+    },
+    "class": {
+        "type": "string",
+        "required": true
+    },
+    "order": {
+        "type": "string",
+        "required": true
+    },
+    "family": {
+        "type": "string",
+        "required": true
+    },
+    "genus": {
+        "type": "string",
+        "required": true
+    },
+    "species": {
+        "type": "string",
+        "required": true
+    },
+
+    "media" : {
+        "type": "[]AnimalMedia",
+        "required":false
+    }
+}

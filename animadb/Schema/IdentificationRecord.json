@@ -1,0 +1,43 @@
+{
+    "id":{
+        "type": "int",
+        "required": true
+    },
+    "created_by": {
+        "type": "string",
+        "required": true
+    },
+    "created_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    "modified_by": {
+        "type": "string",
+        "required": true
+    },
+    "modified_on": {
+        "type": "DateTime",
+        "required": true
+    },
+
+    "record_number":{
+        "type": "string",
+        "required": true
+    },
+    "visible": {
+        "type": "bool",
+        "required": true
+    },
+    "provider": {
+        "type": "Organization",
+        "required": true
+    },
+    "registered_date": {
+        "type": "date",
+        "required": true
+    },
+    "type":{
+        "type": "IdentificationType",
+        "required": true
+    }
+}

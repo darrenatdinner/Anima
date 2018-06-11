@@ -1,0 +1,7 @@
+given_name : string @index(fulltext) .
+middle_name : string @index(fulltext) .
+family_name : string @index(fulltext) .
+username : string @index(exact, fulltext) .
+passkey : password .
+salt : string .
+role : uid @index(exact, term) . #Role
