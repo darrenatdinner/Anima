@@ -1,0 +1,5 @@
+{
+    key : string @index(exact, fulltext) .
+    text : string @index(exact, fulltext) .
+    language : uid @index(uid) . #LanguageCode
+}

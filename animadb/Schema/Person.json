@@ -1,0 +1,51 @@
+{
+    "id":{
+        "type": "int",
+        "required": true
+    },
+    "created_by": {
+        "type": "string",
+        "required": true
+    },
+    "created_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    "modified_by": {
+        "type": "string",
+        "required": true
+    },
+    "modified_on": {
+        "type": "DateTime",
+        "required": true
+    },
+
+    "first_name":{
+        "type": "string",
+        "required": true
+    },
+    "middle_name":{
+        "type": "string",
+        "required": false
+    },
+    "last_name":{
+        "type": "string",
+        "required": true
+    },
+    "title":{
+        "type": "string",
+        "required": true
+    },
+    "birth_date":{
+        "type": "DateTime",
+        "required": false
+    },
+    "identification": {
+        "type": "IdentificationRecord",
+        "required": true
+    },
+    "contact": {
+        "type": "ContactMethod",
+        "required": true
+    }
+}

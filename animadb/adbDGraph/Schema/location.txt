@@ -1,0 +1,13 @@
+address : string @index(term) .
+street_line1 : string @index(fulltext) .
+street_line2 : string @index(fulltext) .
+city : string @index(term) .
+state : string @index(term) .
+zip : string @index(term) .
+zip_extension : string @index(term) .
+region : string @index(term) .
+country : string @index(term) .
+continent : string @index(term) .
+use_GPS : bool @index(bool) .
+geolocation : geo @index(geo) .
+ 

@@ -1,0 +1,6 @@
+name : string @index(exact, fulltext) .
+animal_type : uid @index(uid) . #Animal
+pet_record : uid @index(uid) . #IndentificationRecord
+external_records : [uid] @index(uid) . #[]IndentificationRecord
+behavior_records : [uid] @index(uid) . #[]BehaviorRecords
+medical_records : [uid] @index(uid) . #[]MedicalRecords

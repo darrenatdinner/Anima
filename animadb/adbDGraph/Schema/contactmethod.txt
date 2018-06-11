@@ -1,0 +1,3 @@
+name : string @index(term) .
+data : string @index(term) .
+contact_type : uid @index(uid) .

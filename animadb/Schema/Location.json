@@ -1,0 +1,83 @@
+{
+    "id":{
+        "type": "int",
+        "required": true
+    },
+    "created_by": {
+        "type": "string",
+        "required": true
+    },
+    "created_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    "modified_by": {
+        "type": "string",
+        "required": true
+    },
+    "modified_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    
+    "address":{
+        "type": "string",
+        "required": false
+    },
+    "street_line1":{
+        "type": "string",
+        "required": false
+    },
+    "street_line2":{
+        "type": "string",
+        "required": false
+    },
+    "city":{
+        "type": "string",
+        "required": false
+    },
+    "state":{
+        "type": "string",
+        "required": false
+    },
+    "zip":{
+        "type": "string",
+        "required": false
+    },
+    "zip_extension":{
+        "type": "string",
+        "required": false
+    },
+    "region":{
+        "type": "string",
+        "required": false
+    },
+    "country":{
+        "type": "string",
+        "required": false
+    },
+    "continent":{
+        "type": "string",
+        "required": false
+    },
+    "use_GPS":{
+        "type": "boolean",
+        "required": true
+    },
+    "latitude": {
+        "type": "string",
+        "required": false
+    },
+    "longitude":{
+        "type": "string",
+        "required": false
+    },
+    "elevation":{
+        "type": "string",
+        "required": false
+    },
+    "error_range":{
+        "type": "int",
+        "required": false
+    }
+}

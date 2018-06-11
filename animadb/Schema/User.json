@@ -1,0 +1,43 @@
+{
+    "id": {
+        "type": "string",
+        "required": true
+    },
+    "created_by": {
+        "type": "string",
+        "required": true
+    },
+    "created_on": {
+        "type": "DateTime",
+        "required": true
+    },
+    "modified_by": {
+        "type": "string",
+        "required": true
+    },
+    "modified_on": {
+        "type": "DateTime",
+        "required": true
+    },
+
+    "person":{
+        "type": "Person",
+        "required":false
+    },
+    "username":{
+        "type": "string",
+        "required": false
+    },
+    "passkey":{
+        "type": "string",
+        "required": true
+    },
+    "salt":{
+        "type": "string",
+        "required": false
+    },
+    "role":{
+        "type": "Role",
+        "required": true
+    }
+}
