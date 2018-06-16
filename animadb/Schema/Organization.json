@@ -26,14 +26,18 @@
     },
     "primary_location":{
         "type": "Location",
-        "required": false
+        "required": true
     },
     "primary_contact":{
         "type": "ContactMethod",
         "required": false
     },
+    "account":{
+        "type": "Account",
+        "required": true
+    },
     "services":{
         "type": "[]OrganizationServices",
-        "required":true
+        "required":false
     }
 }

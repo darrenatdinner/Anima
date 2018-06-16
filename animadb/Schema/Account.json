@@ -35,5 +35,9 @@
     "datashare":{
         "type": "[]ShareRecord",
         "required": false
+    },
+    "localdatastore_optin":{
+        "type": "ShareRecord",
+        "required": false
     }
 }

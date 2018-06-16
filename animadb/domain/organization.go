@@ -8,5 +8,6 @@ type Organization struct {
 	PrimaryLocation Location              `json:"primaryLocation,omitempty"`
 	PrimaryContact  ContactMethod         `json:"primaryContact,omitempty"`
 	Employees       []Person              `json:"employees,omitempty"`
+	Account         []Account             `json:"account,omitempty"`
 	Services        []OrganizationService `json:"services,omitempty"`
 }
