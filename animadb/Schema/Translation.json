@@ -20,7 +20,7 @@
         "required": true
     },
     
-    "translation_key_id": {
+    "key_id": {
         "type": "int",
         "required": true
     },
@@ -29,7 +29,7 @@
         "required": true
     },
     "translation": {
-        "type": "int",
+        "type": "string",
         "required": true
     }
 }

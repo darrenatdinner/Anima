@@ -42,7 +42,7 @@
     },
     "identification": {
         "type": "IdentificationRecord",
-        "required": true
+        "required": false
     },
     "contact": {
         "type": "ContactMethod",

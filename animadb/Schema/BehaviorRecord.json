@@ -18,5 +18,18 @@
     "modified_on": {
         "type": "DateTime",
         "required": true
+    },
+
+    "reaction_statement" : {
+        "type": "string",
+        "required": true
+    },
+    "reaction_towards":{
+        "type": "string",
+        "required": true
+    },
+    "reaction_notes":{
+        "type": "string",
+        "required": false
     }
 }

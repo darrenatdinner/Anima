@@ -20,7 +20,7 @@
         "required": true
     },
     
-    "translation_key": {
+    "key": {
         "type": "int",
         "required": true
     }

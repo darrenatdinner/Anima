@@ -32,6 +32,10 @@
         "type": "ContactMethod",
         "required": false
     },
+    "employees":{
+        "type": "[]Account",
+        "required": true
+    },
     "account":{
         "type": "Account",
         "required": true

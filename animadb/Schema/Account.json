@@ -32,6 +32,10 @@
         "type": "[]Person",
         "required": true
     },
+    "animals": {
+        "type": "[]Pets",
+        "required": true
+    },
     "datashare":{
         "type": "[]ShareRecord",
         "required": false

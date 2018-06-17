@@ -18,5 +18,38 @@
     "modified_on": {
         "type": "DateTime",
         "required": true
+    },
+
+    "client": {
+        "type": "Account",
+        "required": true
+    },
+    "pet": {
+        "type": "Pet",
+        "required": true
+    },
+    "organization": {
+        "type": "Organization",
+        "required": true
+    },
+    "doctor": {
+        "type": "Person",
+        "required": true
+    },
+    "pet_data": {
+        "type": "string",
+        "required": true
+    },
+    "date": {
+        "type": "DateTime",
+        "required": true
+    },
+    "notes": {
+        "type": "string",
+        "required": true
+    },
+    "outcome": {
+        "type": "string",
+        "required": true
     }
 }

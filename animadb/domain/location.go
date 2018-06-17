@@ -15,7 +15,9 @@ type Location struct {
 	Country      string `json:"country,omitempty"`
 	Continent    string `json:"continent,omitempty"`
 
-	UseGPS    bool   `json:"useGPS,omitempty"`
-	Latitude  string `json:"latitude,omitempty"`
-	Longitude string `json:"longitude,omitempty"`
+	UseGPS     bool   `json:"useGPS,omitempty"`
+	Latitude   string `json:"latitude,omitempty"`
+	Longitude  string `json:"longitude,omitempty"`
+	Elevation  string `json:"elevation,omitempty"`
+	ErrorRange string `json:"errorRange,omitempty"`
 }

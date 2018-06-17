@@ -8,6 +8,7 @@ type Account struct {
 	Pets                []Pet         `json:"pets,omitempty"`
 	PrimaryContact      Person        `json:"primaryContact,omitempty"`
 	Contacts            []Person      `json:"contacts,omitempty"`
+	Animals             []Pet         `json:"animals,omitempty"`
 	DataShare           []ShareRecord `json:"datashare,omitempty"`
 	LocalDatastoreOptin ShareRecord   `json:"localDatastoreOptin,omitempty"`
 }

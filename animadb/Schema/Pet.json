@@ -25,9 +25,8 @@
         "required": true
     },
     "animal_type":{
-        "type": "int",
-        "required": true,
-        "reference": "Animal"
+        "type": "Animal",
+        "required": true
     },
     "pet_record":{
         "type": "IdentificationRecord",

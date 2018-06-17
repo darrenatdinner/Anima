@@ -57,6 +57,10 @@
         "required": true
     },
 
+    "common_name": {
+        "type": "string",
+        "required": true
+    },
     "media" : {
         "type": "[]AnimalMedia",
         "required":false

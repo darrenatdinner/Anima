@@ -14,5 +14,6 @@ type Animal struct {
 	Genus   string `json:"genus,omitempty"`
 	Species string `json:"species,omitempty"`
 
-	Media []AnimalMedia `json:"media"`
+	CommonName string        `json:"commonName,omitempty"`
+	Media      []AnimalMedia `json:"media"`
 }
